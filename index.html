@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beranda</title>
+  <link rel="stylesheet" href="./bootstrap-5.3.0-alpha3-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="branda.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <div class="container">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <img src="Icon/Logo Tanya Dosen.png" class="img-fluid" alt="...">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown"></li>
+          </ul>
+          <form class="d-flex" role="search">
+            <a class="navbar-brand" href="#">Beranda</a>
+            <!-- modal -->
+            <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal"
+              data-bs-whatever="@mdo">Masuk</button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <div class="container d-flex justify-content-center">
+                      <h5 class="modal-title" id="exampleModalLabel">Masuk Ke Sistem</h5>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-3">
+                        <p class="text-center">Silakan masuk menggunakan Username dan password SIMPEG bagi pegawai dan
+                          SIAKAD bagi mahasiswa</p>
+                        <p class="text-center">Username</p>
+                        <div class="col-9 input_login">
+                          <input type="text" class="form-control" placeholder="NIM/NIDN" id="recipient-name">
+                        </div>
+                      </div>
+                      <div class="mb-3">
+                        <p class="text-center">Password</p>
+                        <div class="col-9 input_login">
+                          <input type="password" class="form-control" placeholder="Masukkan Password" id="recipient-pw">
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer d-flex justify-content-center">
+                    <a class="btn btn-primary" href="./daftarNamaDosen.html">Masuk</a>
+                    <button type="button" class="btn btn-pinang" data-bs-dismiss="modal">Batal</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- modal -->
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- Navbar End -->
+
+  <!-- Homepage -->
+  <div class="homepage">
+    <div class="row">
+      <div class="col">
+        <img src="assets/image/Vector 7 (1).png" alt="">
+      </div>
+      <div class="col-6">
+        <p class="judulhp"><span style="color:#FB0303;">T</span>ANYA DOSEN</p>
+        <p class="isihp">Tanya dosen merupakan sebuah sistem yang dapat memudahkan mahasiswa untuk berkomunikasi dengan
+          dosen. Penerapan sistem ini juga di harapkan untuk dapat meminimalisir adanya chat dari mahasiswa yang
+          tertimbun karena banyaknya pesan yang masuk di WA dosen.</p>
+        <!-- modal -->
+        <button type="button" class="btn btn-hp" data-bs-toggle="modal" data-bs-target="#modalll"
+          data-bs-whatever="@mdo">Masuk</button>
+        <div class="modal fade" id="modalll" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <div class="container d-flex justify-content-center">
+                  <h5 class="modal-title" id="exampleModalLabel">Masuk Ke Sistem</h5>
+                </div>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3">
+                    <p class="text-center">Silakan masuk menggunakan Username dan password SIMPEG bagi pegawai dan
+                      SIAKAD bagi mahasiswa</p>
+                    <p class="text-center">Username</p>
+                    <div class="col-9 input_login">
+                      <input id="username-dosen" type="text" class="form-control" placeholder="NIM/NIDN" id="recipient-name">
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <p class="text-center">Password</p>
+                    <div class="col-9 input_login">
+                      <input type="password" class="form-control" placeholder="Masukkan Password" id="recipient-pw">
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer d-flex justify-content-center">
+                <a id="link-dsn" href="#" class="btn btn-primary">Masuk</a>
+                <button type="button" class="btn btn-pinang" data-bs-dismiss="modal">Batal</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- modal -->
+      </div>
+      <div class="col-5">
+        <img src="Icon/1.png" class="img-fluid rounded ms-5 imghp" alt="...">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-5">
+        <img src="assets/image/5.png"  class="img-fluid rounded float-end me-5 imghp"  alt="...">
+      </div>
+      <div class="col-5">
+      <p class="judul1hp">Kelebihan Tanya Dosen</p>
+        <p class="isi1hp">Tampilan yang mudah dipahami
+          tersedianya template chat yang sopan
+          bisa melihat status dosen apakah sedang sibuk atau tidak</p>
+      </div>
+      <div class="col">
+        <img src="assets/image/Vector 7.png" class="float-end vector" alt="">
+      </div>
+    </div>
+
+  </div>
+  <!-- Homepage End -->
+
+  <!-- Footer -->
+  <footer>
+    <p class="pfoot mt-2" style="margin-bottom: 0; color: #3D3D3D;">Copyright Tanya Dosen 2023</p>
+    <p style="margin-top: 0; color: #3D3D3D;">Analisis Perancangan Sistem Informasi R4 Kelompok 3 </p>
+  </footer>
+  <!-- Footer End -->
+
+  <script>
+    window.onload = () => {
+      const linkDsn = document.getElementById("link-dsn");
+      const usernameDosen = document.getElementById('username-dosen')
+      linkDsn.addEventListener('click', function(){
+        if (usernameDosen.value == "0008078004"){
+          linkDsn.href = "./tampilanChatDsn.html";
+        } else 
+        if (usernameDosen.value == "0029068909"){
+          linkDsn.href = "./tampilanChatDsnDaniel.html";
+        } else {
+          linkDsn.href = "./tampilanChatDsnEdi.html";
+        }
+
+      })
+    }
+  </script>
+  <script src="./bootstrap-5.3.0-alpha3-dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
